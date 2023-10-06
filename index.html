@@ -16,16 +16,20 @@
             cursor: pointer;
             text-decoration: underline;
         }
+        .border-orange {
+            border: solid 1px greenyellow;
+            box-shadow: 0 0 18px orange;
+        }
     </style>
 </head>
-<body> 
+<body class="bg-dark"> 
     <div class="container mt-2 pt-5 px-5">
         <div class="row">
             <div class="col"></div>
             <div id="login" class="col-md-4 mt-5 pt-5">
-                <div class="card shadow">
+                <div class="card border-orange">
                     <h3 class="d-flex justify-content-center py-3 fw-bold fst-italic">LOGIN</h3>
-                    <div class="card-body">
+                    <div class="card-body bg-dark">
                         <form action="" method="post" class="px-2">
                             <div class="form-floating mb-3">
                                 <input type="email" class="form-control" id="loginEmail" placeholder="name@example.com">
